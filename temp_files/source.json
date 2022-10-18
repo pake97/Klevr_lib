@@ -1,0 +1,429 @@
+{
+    "image_index": 0,
+    "objects": [
+        {
+            "color": "Blue",
+            "size": "Large",
+            "rotation": 269.8517172617167,
+            "shape": "Cube",
+            "3d_coords": [
+                -1.3705521821975708,
+                2.0794010162353516,
+                0.699999988079071
+            ],
+            "material": "Rubber",
+            "pixel_coords": [
+                269,
+                88,
+                12.661545753479004
+            ],
+            "id": "o0",
+            "hasOnLeft": [
+                "o1",
+                "o3",
+                "o4"
+            ],
+            "hasOnRight": [
+                "o2",
+                "o5"
+            ],
+            "hasOnFront": [
+                "o1",
+                "o2",
+                "o3",
+                "o4",
+                "o5"
+            ],
+            "hasBehind": [],
+            "hasDirectlyOnLeft": [
+                "o1"
+            ],
+            "hasDirectlyOnRight": [
+                "o2"
+            ],
+            "hasDirectlyOnFront": [
+                "o1"
+            ],
+            "hasDirectlyBehind": []
+        },
+        {
+            "color": "Green",
+            "size": "Large",
+            "rotation": 292.2219458666971,
+            "shape": "Cylinder",
+            "3d_coords": [
+                -2.9289753437042236,
+                -1.7488206624984741,
+                0.699999988079071
+            ],
+            "material": "Metallic",
+            "pixel_coords": [
+                93,
+                108,
+                11.522202491760254
+            ],
+            "id": "o1",
+            "hasOnLeft": [],
+            "hasOnRight": [
+                "o0",
+                "o2",
+                "o3",
+                "o4",
+                "o5"
+            ],
+            "hasOnFront": [
+                "o2",
+                "o3",
+                "o4"
+            ],
+            "hasBehind": [
+                "o0",
+                "o5"
+            ],
+            "hasDirectlyOnLeft": [],
+            "hasDirectlyOnRight": [
+                "o0"
+            ],
+            "hasDirectlyOnFront": [
+                "o2"
+            ],
+            "hasDirectlyBehind": [
+                "o0"
+            ]
+        },
+        {
+            "color": "Cyan",
+            "size": "Small",
+            "rotation": 25.545135239473026,
+            "shape": "Cube",
+            "3d_coords": [
+                1.5515961647033691,
+                0.6776641607284546,
+                0.3499999940395355
+            ],
+            "material": "Rubber",
+            "pixel_coords": [
+                319,
+                162,
+                10.045343399047852
+            ],
+            "id": "o2",
+            "hasOnLeft": [
+                "o0",
+                "o1",
+                "o3",
+                "o4"
+            ],
+            "hasOnRight": [
+                "o5"
+            ],
+            "hasOnFront": [
+                "o3",
+                "o4"
+            ],
+            "hasBehind": [
+                "o0",
+                "o1",
+                "o5"
+            ],
+            "hasDirectlyOnLeft": [
+                "o0"
+            ],
+            "hasDirectlyOnRight": [
+                "o5"
+            ],
+            "hasDirectlyOnFront": [
+                "o3"
+            ],
+            "hasDirectlyBehind": [
+                "o0"
+            ]
+        },
+        {
+            "color": "Brown",
+            "size": "Large",
+            "rotation": 327.3489188814305,
+            "shape": "Cylinder",
+            "3d_coords": [
+                -0.25301405787467957,
+                -2.3089325428009033,
+                0.699999988079071
+            ],
+            "material": "Metallic",
+            "pixel_coords": [
+                132,
+                159,
+                9.392304420471191
+            ],
+            "id": "o3",
+            "hasOnLeft": [
+                "o1"
+            ],
+            "hasOnRight": [
+                "o0",
+                "o2",
+                "o4",
+                "o5"
+            ],
+            "hasOnFront": [
+                "o4"
+            ],
+            "hasBehind": [
+                "o0",
+                "o1",
+                "o2",
+                "o5"
+            ],
+            "hasDirectlyOnLeft": [
+                "o1"
+            ],
+            "hasDirectlyOnRight": [
+                "o0"
+            ],
+            "hasDirectlyOnFront": [
+                "o4"
+            ],
+            "hasDirectlyBehind": [
+                "o0"
+            ]
+        },
+        {
+            "color": "Gray",
+            "size": "Small",
+            "rotation": 6.325183772442613,
+            "shape": "Cube",
+            "3d_coords": [
+                1.018894076347351,
+                -1.93693208694458,
+                0.3499999940395355
+            ],
+            "material": "Rubber",
+            "pixel_coords": [
+                192,
+                197,
+                8.907766342163086
+            ],
+            "id": "o4",
+            "hasOnLeft": [
+                "o1",
+                "o3"
+            ],
+            "hasOnRight": [
+                "o0",
+                "o2",
+                "o5"
+            ],
+            "hasOnFront": [],
+            "hasBehind": [
+                "o0",
+                "o1",
+                "o2",
+                "o3",
+                "o5"
+            ],
+            "hasDirectlyOnLeft": [
+                "o1"
+            ],
+            "hasDirectlyOnRight": [
+                "o0"
+            ],
+            "hasDirectlyOnFront": [],
+            "hasDirectlyBehind": [
+                "o0"
+            ]
+        },
+        {
+            "color": "Brown",
+            "size": "Large",
+            "rotation": 25.96049348342493,
+            "shape": "Sphere",
+            "3d_coords": [
+                0.43993687629699707,
+                2.9987525939941406,
+                0.699999988079071
+            ],
+            "material": "Metallic",
+            "pixel_coords": [
+                353,
+                100,
+                11.964213371276855
+            ],
+            "id": "o5",
+            "hasOnLeft": [
+                "o0",
+                "o1",
+                "o2",
+                "o3",
+                "o4"
+            ],
+            "hasOnRight": [],
+            "hasOnFront": [
+                "o1",
+                "o2",
+                "o3",
+                "o4"
+            ],
+            "hasBehind": [
+                "o0"
+            ],
+            "hasDirectlyOnLeft": [
+                "o0"
+            ],
+            "hasDirectlyOnRight": [],
+            "hasDirectlyOnFront": [
+                "o1"
+            ],
+            "hasDirectlyBehind": [
+                "o0"
+            ]
+        }
+    ],
+    "relationships": {
+        "right": [
+            [
+                2,
+                5
+            ],
+            [
+                0,
+                2,
+                3,
+                4,
+                5
+            ],
+            [
+                5
+            ],
+            [
+                0,
+                2,
+                4,
+                5
+            ],
+            [
+                0,
+                2,
+                5
+            ],
+            []
+        ],
+        "behind": [
+            [],
+            [
+                0,
+                5
+            ],
+            [
+                0,
+                1,
+                5
+            ],
+            [
+                0,
+                1,
+                2,
+                5
+            ],
+            [
+                0,
+                1,
+                2,
+                3,
+                5
+            ],
+            [
+                0
+            ]
+        ],
+        "front": [
+            [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            [
+                2,
+                3,
+                4
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                4
+            ],
+            [],
+            [
+                1,
+                2,
+                3,
+                4
+            ]
+        ],
+        "left": [
+            [
+                1,
+                3,
+                4
+            ],
+            [],
+            [
+                0,
+                1,
+                3,
+                4
+            ],
+            [
+                1
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        ]
+    },
+    "image_filename": "CLEVR_train_000000.png",
+    "split": "train",
+    "directions": {
+        "right": [
+            0.6563112735748291,
+            0.7544902563095093,
+            -0.0
+        ],
+        "behind": [
+            -0.754490315914154,
+            0.6563112735748291,
+            0.0
+        ],
+        "above": [
+            0.0,
+            0.0,
+            1.0
+        ],
+        "below": [
+            -0.0,
+            -0.0,
+            -1.0
+        ],
+        "left": [
+            -0.6563112735748291,
+            -0.7544902563095093,
+            0.0
+        ],
+        "front": [
+            0.754490315914154,
+            -0.6563112735748291,
+            -0.0
+        ]
+    }
+}
