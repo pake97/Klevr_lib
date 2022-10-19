@@ -13,7 +13,7 @@ from torch.optim import Adam
 from pykeen.training import SLCWATrainingLoop
 from pykeen.triples import TriplesFactory
 import torch
-from discordwebhook import Discord
+
 import numpy as np
 
 
@@ -124,16 +124,7 @@ def main():
             #write_txt('temp_files/train_file.txt','\n')    
             triples_list.append(line)
         write_to_file('Scene'+str(scene['image_index'])+","+str(len(triples_list))+"\n")       
-        
-    discord = Discord(url="https://discord.com/api/webhooks/966100471204954204/anW_lkwxZT-epV5Wo_99hUEFvDa7owyITk3nW6cFFfu7ky1rcBdl2SJ3LxJrHUzpVr-N")
-    embed = {
-            "username": "CRYPTO BOT",
-            "title": "finito",
-            "color": 16711680,
-            "description": "finito",
-            "footer": { "text": "Crypto Bot"},
-        }
-    discord.post(embeds=[embed])
+   
 if __name__ == '__main__':
     warnings.filterwarnings("ignore")
     main()
